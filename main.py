@@ -1,16 +1,9 @@
-# This is a sample Python script.
+import cv2
+import tensorflow as tf
+from image_stitching import stitch_images, save_result
+#from ui import create_ui
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+def main(): ##reate_ui()
+    print("Yara Is the queen ")
+if __name__ == "__main__":
+    main()
