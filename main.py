@@ -23,7 +23,7 @@ class MainView:
         ttk.Button(self.main_frame, text="AI-based Detection", command=self.open_ai_detection).pack(fill="x", pady=10)
 
     def open_stitching(self):
-        self.master.geometry("800x700+0+0")
+        self.master.geometry("900x800+0+0")
         self.open_new_frame(StitchingFrame)
 
     def open_edge_detection(self):
@@ -71,10 +71,10 @@ class StitchingFrame(ttk.Frame):
         # Button to save the stitched image, initially disabled
         self.save_button = ttk.Button(self, text="Save Stitched Image", command=self.save_stitched_image,
                                       state='disabled')
-        self.save_button.pack(pady=10)
+        self.save_button.pack(pady=5)
 
         # Button to return to the main screen
-        ttk.Button(self, text="Back to Main", command=self.return_to_main).pack(pady=10)
+        ttk.Button(self, text="Back to Main", command=self.return_to_main).pack(pady=5)
 
     def select_images(self):
         # Open a file dialog to select multiple images
