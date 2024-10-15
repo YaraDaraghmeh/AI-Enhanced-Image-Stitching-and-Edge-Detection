@@ -68,4 +68,4 @@ Contributions to this project are welcome. Please ensure to follow the coding st
 
 ## Contact
 
-For any queries regarding this project, please contact [Your Name] at [your.email@example.com].
+For any queries regarding this project, please contact [Yara Daraghmeh] at [yaradaraghmeh056@gmail.com]
