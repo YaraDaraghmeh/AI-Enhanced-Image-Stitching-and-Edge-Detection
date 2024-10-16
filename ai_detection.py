@@ -54,7 +54,7 @@ class AIDetectionFrame(ttk.Frame):
             messagebox.showerror("Error", "Please load an image first.")
             return
 
-        # Convert PIL to np array
+        #  PIL to np array
         image_np = np.array(self.image)
         input_tensor = tf.convert_to_tensor(image_np)
         input_tensor = input_tensor[tf.newaxis, ...]
